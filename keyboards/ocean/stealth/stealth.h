@@ -1,4 +1,4 @@
-/* Copyright 2018 MechMerlin
+/* Copyright 2021 Ocean
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -13,5 +13,13 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+#pragma once
 
-#include "al1.h"
+#include "quantum.h"
+
+#define LAYOUT(\
+  K00, K01, K02 \
+) \
+{ \
+  { K00, K01, K02 }, \
+}
